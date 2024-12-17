@@ -1,0 +1,156 @@
+/* Responsive Design for Navbar */
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(18, 21, 37, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: none;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .nav-links li {
+        padding: 15px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu-icon {
+        display: flex;
+    }
+
+    .nav-links.open {
+        display: flex; 
+    }
+
+    .logo {
+        justify-content: flex-start; 
+        width: auto; 
+    }
+
+    .hire-me-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px; 
+    }
+}
+/*  small devices */
+@media (max-width: 480px) {
+    .logo h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo h3 {
+        font-size: 1.2rem;
+    }
+
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .profile-image img {
+        max-width: 100%;
+        margin-top: 105px;
+    
+    }
+
+  
+}
+/* responsive for skill section */
+@media (max-width: 768px) {
+    .social-container ul {
+        gap: 20px; 
+    }
+
+    .social-container ul li {
+        font-size: 1.2rem; 
+        padding: 8px 16px;  
+    }
+}
+
+@media (max-width: 480px) {
+    .social-container ul {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .social-container ul li {
+        font-size: 1rem;
+        padding: 6px 12px; 
+    }
+}
+
+
+/* about responsive */
+
+@media (max-width: 768px) {
+    .container_hero {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    .profile-image2 img {
+        width: 70%; 
+        margin-bottom: 20px; 
+    }
+
+    .text-container {
+        max-width: 100%; 
+    }
+
+    .section-heading {
+        font-size: 2rem; 
+    }
+
+    .section-paragraph {
+        font-size: 1rem; 
+    }
+
+    .section-divider {
+        width: 80%; 
+    }
+}
+
+/*skills section  */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .statistics {
+        justify-content: center;
+    }
+
+    .statistic {
+        text-align: center;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+    }
+}
